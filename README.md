@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 ChatBotAI - Intelligent Chatbot System
+# 🤖 Ai-Chatbot - Intelligent Chatbot System
 
 ### A Smart AI-Powered Chatbot with Dynamic Training Interface
 
@@ -18,13 +18,13 @@
 
 ## 📖 About The Project
 
-**ChatBotAI** is an intelligent, flexible chatbot system powered by Python and advanced Natural Language Processing (NLP). Designed to understand user queries, recognize intents, and provide accurate responses, this chatbot can be easily trained and customized to fit various use cases.
+**Ai-Chatbot** is an intelligent, flexible chatbot system powered by Python and advanced Natural Language Processing (NLP). Designed to understand user queries, recognize intents, and provide accurate responses, this chatbot can be easily trained and customized to fit various use cases.
 
 The system features a dual-interface approach:
 - **User Interface** (`index.html`) - Clean, intuitive chatbot interaction
 - **Admin Interface** (`train.html`) - Powerful training dashboard for managing intents and responses
 
-Built with **spaCy** for natural language understanding and **Flask** for seamless web deployment, ChatBotAI makes conversational AI accessible and maintainable.
+Built with **spaCy** for natural language understanding and **Flask** for seamless web deployment, Ai-Chatbot makes conversational AI accessible and maintainable.
 
 ---
 
@@ -103,10 +103,10 @@ Before you begin, ensure you have the following installed:
 cd /path/to/your/projects
 
 # Clone the repository
-git clone https://github.com/NazifaTasnimShifa/ChatBotAI.git
+git clone https://github.com/NazifaTasnimShifa/Ai-Chatbot.git
 
 # Navigate into the project directory
-cd ChatBotAI
+cd Ai-Chatbot
 
 # Or download ZIP from GitHub and extract
 ```
@@ -252,7 +252,7 @@ PORT=5000
 ## 📁 Project Structure
 
 ```
-ChatBotAI/
+Ai-Chatbot/
 ├── 📄 main.py                      # Main Flask application
 ├── 📄 train.py                     # Model training script
 ├── 📄 requirements.txt             # Python dependencies
@@ -631,8 +631,8 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 Need help? We're here for you!
 
-- 📧 **Create an Issue**: [GitHub Issues](https://github.com/NazifaTasnimShifa/ChatBotAI/issues)
-- 💬 **Start a Discussion**: [GitHub Discussions](https://github.com/NazifaTasnimShifa/ChatBotAI/discussions)
+- 📧 **Create an Issue**: [GitHub Issues](https://github.com/NazifaTasnimShifa/Ai-Chatbot/issues)
+- 💬 **Start a Discussion**: [GitHub Discussions](https://github.com/NazifaTasnimShifa/Ai-Chatbot/discussions)
 - 📖 **Read the Docs**: Check the `/docs` folder
 - 💡 **Feature Request**: Open an issue with the "enhancement" label
 
@@ -651,9 +651,9 @@ Need help? We're here for you!
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/NazifaTasnimShifa/ChatBotAI?style=social)
-![GitHub forks](https://img.shields.io/github/forks/NazifaTasnimShifa/ChatBotAI?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/NazifaTasnimShifa/ChatBotAI?style=social)
+![GitHub stars](https://img.shields.io/github/stars/NazifaTasnimShifa/Ai-Chatbot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/NazifaTasnimShifa/Ai-Chatbot?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/NazifaTasnimShifa/Ai-Chatbot?style=social)
 
 </div>
 
