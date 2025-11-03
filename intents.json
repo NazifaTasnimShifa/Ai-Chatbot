@@ -1,0 +1,256 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "Hi there!",
+                "Hola"
+            ],
+            "responses": [
+                {
+                    "text": "Hello! How can I assist you?",
+                    "link": null
+                },
+                {
+                    "text": "Hi there! How can I help you today?",
+                    "link": null
+                },
+                {
+                    "text": "Hello! How can I assist you?",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later"
+            ],
+            "responses": [
+                {
+                    "text": "Goodbye! Have a great day!",
+                    "link": null
+                },
+                {
+                    "text": "See you later!",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks a lot",
+                "thanks"
+            ],
+            "responses": [
+                {
+                    "text": "You're welcome!",
+                    "link": null
+                },
+                {
+                    "text": "No problem!",
+                    "link": null
+                },
+                {
+                    "text": "You're welcome!",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "tag": "RUET",
+            "patterns": [
+                "Tell me about RUET",
+                "RUET",
+                "About RUET",
+                "What is RUET?",
+                "Engineering University in Rajshahi?"
+            ],
+            "responses": [
+                {
+                    "text": {
+                        "text": "Rajshahi University of Engineering & Technology, commonly known by the acronym RUET, is a PhD granting public engineering and technological research university in Rajshahi, Bangladesh. It specialises in the field of applied sciences, engineering, technology, architecture, and urban planning.",
+                        "link": "https://www.ruet.ac.bd/"
+                    },
+                    "link": null
+                }
+            ]
+        },
+        {
+            "tag": "BUET",
+            "patterns": [
+                "BUET"
+            ],
+            "responses": [
+                {
+                    "text": "BUET secured 305th position in the 2024 QS World University Rankings by Subject Area. Achievements. BUET became the Asia West Champion in the 46th ICPC World\u00a0...",
+                    "link": "https://www.buet.ac.bd/"
+                }
+            ]
+        },
+        {
+            "tag": "CUET",
+            "patterns": [
+                "CUET Bangladesh"
+            ],
+            "responses": [
+                {
+                    "text": "The Independence & National Day of Bangladesh-2024 celebrated at CUET. Details \u00b7 Hands-on-Training on BAC Accreditation Criteria/Standards-1 Details \u00b7 Conducted\u00a0...",
+                    "link": "https://www.cuet.ac.bd/"
+                }
+            ]
+        },
+        {
+            "tag": "tell_me_about_chittagong",
+            "patterns": [
+                "tell me about Chittagong"
+            ],
+            "responses": [
+                {
+                    "text": "It is the administrative seat of an eponymous division and district. The city is located on the banks of the Karnaphuli River between the Chittagong Hill Tracts\u00a0...",
+                    "link": "https://en.wikipedia.org/wiki/Chittagong"
+                }
+            ]
+        },
+        {
+            "tag": "ruet",
+            "patterns": [
+                "RUET"
+            ],
+            "responses": [
+                {
+                    "text": "Rajshahi University of Engineering & Technology, commonly known by the acronym RUET, is a PhD granting public engineering and technological research university in Rajshahi, Bangladesh. It specialises in the field of applied sciences, engineering, technology, architecture, and urban planning.",
+                    "link": "https://www.ruet.ac.bd/"
+                }
+            ]
+        },
+        {
+            "tag": "shifa",
+            "patterns": [
+                "Shifa"
+            ],
+            "responses": [
+                {
+                    "text": "Graduate of Computer Science and Engineering student at Rajshahi University of Engineering & Technology, passionate about solving problems through technology and design.",
+                    "link": "https://bd.linkedin.com/in/nazifa-tasnim-shifa"
+                }
+            ]
+        },
+        {
+            "tag": "tasmia_jannat_ruet",
+            "patterns": [
+                "Tasmia Jannat RUET"
+            ],
+            "responses": [
+                {
+                    "text": "\u09a4\u09be\u09b8\u09ae\u09bf\u09af\u09bc\u09be \u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u00b7 Room No: 110 \u00b7 Phone: 880-1689182329 , 880-1308543354 \u00b7 Email: jannat22tasmia@gmail.com \u00b7 jannat22tasmia@cse.ruet.ac.bd\u00a0...",
+                    "link": "https://www.ruet.ac.bd/jannat22tasmia"
+                }
+            ]
+        },
+        {
+            "tag": "vc_ruet",
+            "patterns": [
+                "VC of RUET"
+            ],
+            "responses": [
+                {
+                    "text": "All Vice-Chancellor List \u00b7 Prof. Dr. Engr. Md. Jahangir Alam \u00b7 Dr. Md. Sazzad Hossain \u00b7 Dr. Md. Rafiqul Islam Sheikh \u00b7 Dr. Mohd. Rafiqul Alam Beg \u00b7 Dr. Md. Mortuza\u00a0...",
+                    "link": "https://www.ruet.ac.bd/all-vice-chancellor"
+                }
+            ]
+        },
+        {
+            "tag": "routine",
+            "patterns": [
+                "4th year routine",
+                "routine"
+            ],
+            "responses": [
+                {
+                    "text": "This is the latest 4th year routine",
+                    "link": "/uploads/xzytjv_class-routine_2-5.pdf"
+                }
+            ]
+        },
+        {
+            "tag": "routine",
+            "patterns": [
+                "routine"
+            ],
+            "responses": [
+                {
+                    "text": "Routine is the most advanced calendar app, combining tasks & notes to supercharge your productivity. Available on iOS, macOS & Windows.",
+                    "link": "https://www.routine.co/"
+                }
+            ]
+        },
+        {
+            "tag": "hello_bot",
+            "patterns": [
+                "hello bot"
+            ],
+            "responses": [
+                {
+                    "text": "hellomybot.io is the perfect omnichannel bot platform (Saas) for companies and developers who want to create any kind of conversational agent (callbots,\u00a0...",
+                    "link": "https://hellomybot.io/"
+                }
+            ]
+        },
+        {
+            "tag": "tasmia",
+            "patterns": [
+                "tasmia"
+            ],
+            "responses": [
+                {
+                    "text": "\u09a4\u09be\u09b8\u09ae\u09bf\u09af\u09bc\u09be \u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u00b7 Room No: 110 \u00b7 Phone: 880-1689182329 , 880-1308543354 \u00b7 Email: jannat22tasmia@gmail.com \u00b7 jannat22tasmia@cse.ruet.ac.bd\u00a0...",
+                    "link": "https://www.ruet.ac.bd/jannat22tasmia"
+                }
+            ]
+        },
+        {
+            "tag": "tell_me_about_qausar",
+            "patterns": [
+                "Tell me about qausar"
+            ],
+            "responses": [
+                {
+                    "text": "Apr 10, 2020 ... This month's feature is Kausar Ahmed, Seattle-based culinary instructor, food stylist, and author of the cookbook, The Karachi Kitchen.",
+                    "link": "https://www.pakistaneats.com/recipes/feature-kausar-ahmed-the-karachi-kitchen/"
+                }
+            ]
+        },
+        {
+            "tag": "tell_me_about_quasar",
+            "patterns": [
+                "tell me about quasar"
+            ],
+            "responses": [
+                {
+                    "text": "A quasar (/\u02c8kwe\u026az\u0251\u02d0r/ KWAY-zar) is an extremely luminous active galactic nucleus (AGN). It is sometimes known as a quasi-stellar object, abbreviated QSO.",
+                    "link": "https://en.wikipedia.org/wiki/Quasar"
+                }
+            ]
+        },
+        {
+            "tag": "cse_ruet",
+            "patterns": [
+                "CSE RUET"
+            ],
+            "responses": [
+                {
+                    "text": "We provide 4 years B. Sc. Engineering in Computer Science & Engineering course 2 years M.Sc. and 3 years PhD Program to the local and foreign studen",
+                    "link": "https://www.cse.ruet.ac.bd/"
+                }
+            ]
+        }
+    ]
+}
