@@ -1,2 +1,34 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# .gitattributes
+# GitHub Language Statistics Configuration
+
+# ==============================================
+# Mark as Documentation (excluded from stats)
+# ==============================================
+*.html linguist-documentation
+*.htm linguist-documentation
+*.md linguist-documentation
+docs/* linguist-documentation
+screenshots/* linguist-documentation
+
+# ==============================================
+# Mark as Vendored (excluded from stats)
+# ==============================================
+static/* linguist-vendored
+assets/* linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+
+# ==============================================
+# Python Files (force detection)
+# ==============================================
+*.py linguist-detectable=true
+*.py linguist-language=Python
+
+# ==============================================
+# Data Files (exclude from stats)
+# ==============================================
+data/* linguist-vendored
+models/* linguist-vendored
+uploads/* linguist-vendored
+*.json linguist-vendored
+*.pkl linguist-vendored
